@@ -1,0 +1,72 @@
+body{
+    background:#141414;
+}
+
+/* Navbar */
+.navbar{
+    position: fixed;
+    top:0;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:15px 50px;
+    z-index:1000;
+
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.9),
+        rgba(0,0,0,0.5),
+        transparent
+    );
+}
+
+/* Left */
+.left{
+    display:flex;
+    align-items:center;
+}
+
+.logo{
+    color:#e50914;
+    font-size:24px;
+    font-weight:bold;
+    margin-right:25px;
+}
+
+.menu{
+    list-style:none;
+    display:flex;
+}
+
+.menu li{
+    margin-right:20px;
+    color:#fff;
+    font-size:14px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.menu li:hover{
+    color:#b3b3b3;
+}
+
+/* Right */
+.right{
+    display:flex;
+    align-items:center;
+    color:#fff;
+}
+
+.icon{
+    margin-left:20px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+.profile{
+    margin-left:20px;
+    border-radius:4px;
+    width:30px;
+    height:30px;
+}
