@@ -11,6 +11,7 @@ export const Login = () => {
                 const res = await axios.post("https://node5.onrender.com/user/login",data)
                
                 localStorage.setItem("token",res.data.data)
+                document.cookie = `token=${res.data.data}; path=/`;
    }
   return (
     <div style={{textAlign : "center"}}>
