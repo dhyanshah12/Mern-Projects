@@ -7,6 +7,7 @@ export const NavBar = () => {
   const logoutHandler = () => {
 
     localStorage.clear()
+    document.cookie = "token=; max-age=0; path=/;";
     navigate("/login")
   }
   return (
@@ -150,6 +151,10 @@ export const NavBar = () => {
             </li>
             <li class="nav-item active">
               <Link class="nav-link" to="/login">Login<span class="sr-only">(current)</span></Link>
+            </li>
+
+            <li class="nav-item active">
+              <Link class="nav-link" to="/item">Item<span class="sr-only">(current)</span></Link>
             </li>
 
             <li class="nav-item active">
