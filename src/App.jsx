@@ -47,6 +47,16 @@ import { FormDemo4 } from './components/Form/FormDemo4'
 import { FormTask1 } from './components/Form/FormTask1'
 import { FormWatch } from './components/Form/FormWatch'
 import { FormSteper } from './components/Form/FormSteper'
+import { ApiDemo22 } from './components/Api/ApiDemo22'
+import { Login } from './components/Api/Login'
+import { APiDemo2 } from './components/Api/APiDemo2'
+import { ApiDemo1 } from './components/Api/ApiDemo1'
+import { ApiTask1 } from './components/Api/ApiTask1'
+import { ApiTask2 } from './components/Api/ApiTask2'
+import { Bounce, ToastContainer } from 'react-toastify'
+import { Item } from './components/Api/Item'
+import { UpdateUser } from './components/Api/UpdateUser'
+
 
 
 
@@ -54,7 +64,19 @@ function App() {
 
   return (
     <div>
-
+<ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick={false}
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+        transition={Bounce}
+      />
 
       <NavBar></NavBar>
       <Routes>
@@ -94,6 +116,14 @@ function App() {
         <Route path='/formTask1' element={<FormTask1/>}></Route>
          <Route path='/formwatch' element={<FormWatch/>}></Route>
          <Route path='/formsteper' element={<FormSteper/>}></Route>
+         <Route path='/apidemo1' element={<ApiDemo1/>}></Route>
+         <Route path='/apidemo2' element={<APiDemo2/>}></Route>
+         <Route path='/apidemo22' element={<ApiDemo22/>}></Route>
+         <Route path='/apitask1/:id' element={<ApiTask1/>}></Route>
+         <Route path='/apitask2' element={<ApiTask2/>}></Route>
+         <Route path='/login' element={<Login/>}></Route>
+         <Route path='/updateuser/:id' element={<UpdateUser/>}></Route>
+         <Route path='/item' element={<Item/>}></Route>
       </Routes>
     </div>
   )
