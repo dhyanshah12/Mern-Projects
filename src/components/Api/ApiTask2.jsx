@@ -2,7 +2,7 @@ import axios from 'axios'
 import React from 'react'
 import { useForm } from 'react-hook-form'
 import { toast } from 'react-toastify'
-import { Loader } from '../../../Loader'
+import { Loader } from '../Loader'
 
 export const ApiTask2 = () => {
 
