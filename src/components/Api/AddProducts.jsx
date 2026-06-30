@@ -15,7 +15,7 @@ export const AddProducts = () => {
 
     return (
         <div style={{ textAlign: "center" }}>
-            <h1>AddProducts</h1>
+            <h1>AddProducts</h1>    
             <form onSubmit={handleSubmit(submitHandler)}>
                 {
                     fields.map((p, index) => {
