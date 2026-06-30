@@ -14,7 +14,7 @@ export const ApiDemo1 = () => {
     const getUserDetail =async(id)=>{
     //api...
     const res = await axios.get(`https://node5.onrender.com/user/user/${id}`)
-    // const res = await axios.get(`https://node5.onrender.com/user/user/${id}`)
+    
    
     console.log("res..",res)
     //res.data --->api response
