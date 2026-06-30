@@ -50,7 +50,7 @@ export const ApiDemo1 = () => {
     <div style={{textAlign : "center"}}>
         <h1>Api Demo1</h1>
         {message}
-        {/* <button onClick={getUser}>Get</button> */}
+        
         <table class ='table table-dark'>
                 <thead>
                     <tr>

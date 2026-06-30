@@ -6,6 +6,7 @@ import { Loader } from '../Loader'
 
 export const ApiTask2 = () => {
 
+        // useForm()
       const{register,handleSubmit} = useForm()
     const submitHandler = async(data) => {
 
@@ -38,6 +39,7 @@ export const ApiTask2 = () => {
             <h1>ApiTask2</h1>
             {
                 <Loader/>
+                // <Loader/>
             }
             <form onSubmit={handleSubmit(submitHandler)}>
                 <div>
