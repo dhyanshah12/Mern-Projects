@@ -76,11 +76,11 @@ export const NavBar = () => {
       <li class="nav-item active">
         <Link class="nav-link" to="/Employee">Employee<span class="sr-only">(current)</span></Link>
         </li>
-    
-      <li class="nav-item active">
+    */}
+      {/* <li class="nav-item active">
         <Link class="nav-link" to="/inputdemo1">InputDemo1<span class="sr-only">(current)</span></Link>
-    </li> */}
-            {/* <li class="nav-item active">
+    </li>  */}
+             {/* <li class="nav-item active">
         <Link class="nav-link" to="/inputdemo2">InputDemo2<span class="sr-only">(current)</span></Link>
         </li> */}
 
@@ -155,6 +155,10 @@ export const NavBar = () => {
 
             <li class="nav-item active">
               <Link class="nav-link" to="/item">Item<span class="sr-only">(current)</span></Link>
+            </li>
+
+            <li class="nav-item active">
+              <Link class="nav-link" to="/addproducts">AddProducts<span class="sr-only">(current)</span></Link>
             </li>
 
             <li class="nav-item active">

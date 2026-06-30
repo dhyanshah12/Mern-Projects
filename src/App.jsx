@@ -33,8 +33,7 @@ import { UseStateDemo5 } from './components/USESTATE/UseStateDemo5'
 import { UseStateDemo6 } from './components/USESTATE/UseStateDemo6'
 import { UseStateDemo7 } from './components/USESTATE/UseStateDemo7'
 import { Employee } from './components/Employee'
-import { InputDemo1 } from '../InputDemo1'
-import { InputDemo2 } from '../InputDemo2'
+
 import { Students1 } from './components/PROPS/Students1'
 import { TableDemo1 } from './components/Tables/TableDemo1'
 import { TableDemo2 } from './components/Tables/TableDemo2'
@@ -56,6 +55,9 @@ import { ApiTask2 } from './components/Api/ApiTask2'
 import { Bounce, ToastContainer } from 'react-toastify'
 import { Item } from './components/Api/Item'
 import { UpdateUser } from './components/Api/UpdateUser'
+import { InputDemo2 } from './components/InputDemo2'
+import { InputDemo1 } from './components/InputDemo1'
+import { AddProducts } from './components/Api/AddProducts'
 
 
 
@@ -102,8 +104,8 @@ function App() {
         <Route path='/usestatedemo6' element={<UseStateDemo6 />}></Route>
         <Route path='/usestatedemo7' element={<UseStateDemo7 />}></Route>
         <Route path='/Employee' element={<Employee />}></Route>
-        <Route path='/inputdemo1' element={<InputDemo1 />}></Route>
-        <Route path='/inputdemo2' element={<InputDemo2 />}></Route>
+        <Route path='/inputdemo1' element={<InputDemo1/>}></Route>
+        <Route path='/InputDemo2' element={<InputDemo2 />}></Route>
         <Route path='/students1' element={<Students1 />}></Route>
         <Route path='/mytable' element = {<MyTable/>}></Route>
         <Route path='/tabledemo1' element={<TableDemo1/>}></Route>
@@ -124,6 +126,7 @@ function App() {
          <Route path='/login' element={<Login/>}></Route>
          <Route path='/updateuser/:id' element={<UpdateUser/>}></Route>
          <Route path='/item' element={<Item/>}></Route>
+         <Route path='/addproducts' element={<AddProducts/>}></Route>
       </Routes>
     </div>
   )
