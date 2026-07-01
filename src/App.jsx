@@ -58,6 +58,9 @@ import { UpdateUser } from './components/Api/UpdateUser'
 import { InputDemo2 } from './components/InputDemo2'
 import { InputDemo1 } from './components/InputDemo1'
 import { AddProducts } from './components/Api/AddProducts'
+import { UseRefDemo1 } from './components/UseRefDemo1'
+import { UseRefDemo2 } from './components/UseRefDemo2'
+import { UseRefTask1 } from './components/UseRefTask1'
 
 
 
@@ -127,6 +130,9 @@ function App() {
          <Route path='/updateuser/:id' element={<UpdateUser/>}></Route>
          <Route path='/item' element={<Item/>}></Route>
          <Route path='/addproducts' element={<AddProducts/>}></Route>
+         <Route path='/useref' element={<UseRefDemo1/>}></Route>
+          <Route path='/useref2' element={<UseRefDemo2/>}></Route>
+          <Route path='/usereftask' element={<UseRefTask1/>}></Route>
       </Routes>
     </div>
   )
