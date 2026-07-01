@@ -161,6 +161,17 @@ export const NavBar = () => {
               <Link class="nav-link" to="/addproducts">AddProducts<span class="sr-only">(current)</span></Link>
             </li>
 
+             <li class="nav-item active">
+              <Link class="nav-link" to="/useref">useref1<span class="sr-only">(current)</span></Link>
+            </li>
+
+               <li class="nav-item active">
+              <Link class="nav-link" to="/useref2">useref2<span class="sr-only">(current)</span></Link>
+            </li>
+
+             <li class="nav-item active">
+              <Link class="nav-link" to="/usereftask">userefTask1<span class="sr-only">(current)</span></Link>
+            </li>
             <li class="nav-item active">
               <button onClick={logoutHandler}>Logout</button>
             </li>
