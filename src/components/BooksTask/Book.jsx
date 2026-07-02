@@ -21,6 +21,7 @@ export const Book = () => {
     <div style={{textAlign : "center"}}>
         <h1>Book</h1>
         <BookList book = {book} deleteBook = {deleteBook}></BookList>
+        
     </div>
   )
 }
