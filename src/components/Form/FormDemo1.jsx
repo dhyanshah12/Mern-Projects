@@ -56,6 +56,7 @@ export const FormDemo1 = () => {
             <h3>Name = {data.name}</h3>
             <h3>Age = {data.Age}</h3>
             <h3>Gender = {data.gender}</h3>
+            
         </div>
     )
 }
