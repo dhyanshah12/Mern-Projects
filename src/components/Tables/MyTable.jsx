@@ -29,5 +29,3 @@ export const MyTable = (props) => {
     </table>
   )
 }
-
-//////////////////////////////////
