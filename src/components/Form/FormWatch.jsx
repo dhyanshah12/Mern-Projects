@@ -2,13 +2,14 @@ import React from 'react'
 import { useForm } from 'react-hook-form'
 
 export const FormWatch = () => {
-
+                                                
     const{register,handleSubmit,formState:{errors},watch} = useForm({mode : "onChange"})
 
     const submitHandler = (data)=>{
         alert("Form Submitted")
         console.log(data);   
     }
+    
 
        const password = watch("password")
     const validateSchema = {
