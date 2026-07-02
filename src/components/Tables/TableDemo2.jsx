@@ -102,5 +102,6 @@ export const TableDemo2 = () => {
         <h1>TableDemo2</h1>
         <MyTable headers = {headers} data = {students}></MyTable>
     </div>
+    
   )
 }
