@@ -8,7 +8,7 @@ export const FormDemo3 = () => {
      console.log("error",errors);
 
      const submitHandler = (data)=>{
-        alert("Form Subbmited")
+        alert("Form Submited")
         console.log("data",data);
      }
 
