@@ -30,6 +30,7 @@ export const BookList = (props) => {
                                     <td>
                                         <button
                                             onClick={() => {props.deleteBook(b.id)}}>Delete</button>
+                                            
                                     </td>
                                 </tr>
                             )
